@@ -20,8 +20,7 @@ const IndexPage = () => (
           Software Engineer at{" "}
           <a href="https://equipmentshare.com">EquipmentShare</a>.
           <br />
-          Partner and Full-Stack Developer at{" "}
-          <a href="https://midcoast.io">Midcoast Collective</a>.
+          Partner at <a href="https://midcoast.io">Midcoast Collective</a>.
           <br />
           Endurance Cyclist and Coach at{" "}
           <a href="https://sovereigncyclist.com">Sovereign Cyclist</a>.
