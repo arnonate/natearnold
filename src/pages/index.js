@@ -26,6 +26,9 @@ const IndexPage = () => (
           <a href="https://sovereigncyclist.com">Sovereign Cyclist</a>.
           <br />
           Lifelong Learner and Educator.
+          <br />
+          Sometimes I write about code on{" "}
+          <a href="https://dev.to/arnonate">Dev.to</a>.
         </p>
 
         <Icons>
