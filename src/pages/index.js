@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Logo from "../components/logo"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,9 @@ const IndexPage = () => (
       </ImageWrap>
 
       <Content>
+        <div className="logo">
+          <Logo />
+        </div>
         <Heading>Hello! I'm Nate.</Heading>
         <p>
           Software Engineer at{" "}
@@ -115,7 +119,7 @@ export default IndexPage
 const Heading = styled.h1`
   font-family: "Archivo", sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #2c3f56;
 `
 
 const Icons = styled.div`
@@ -129,7 +133,7 @@ const Icons = styled.div`
 
   * {
     height: 2rem;
-    fill: #ffffff;
+    fill: #2c3f56;
   }
 `
 
@@ -147,6 +151,12 @@ const Content = styled.div`
   @media (min-width: 860px) {
     width: 70%;
     padding-left: 3.2rem;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1.6rem;
   }
 `
 const ImageWrap = styled.div`

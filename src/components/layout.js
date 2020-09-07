@@ -20,8 +20,8 @@ Layout.propTypes = {
 }
 
 const Main = styled.main`
-  background-color: #0b132b;
-  color: #ffffff;
+  background-color: #e5e5e5;
+  color: #2c3f56;
 
   p {
     font-family: "Merriweather", serif;
@@ -31,7 +31,7 @@ const Main = styled.main`
   }
 
   a {
-    color: #5bc0be;
+    color: #31a1c5;
     text-decoration: none;
     border-bottom: 1px solid;
 
