@@ -19,7 +19,9 @@ const IndexPage = () => (
         <div className="logo">
           <Logo />
         </div>
+
         <Heading>Hello! I'm Nate.</Heading>
+
         <p>
           Software Engineer at{" "}
           <a href="https://equipmentshare.com">EquipmentShare</a>.
@@ -155,29 +157,34 @@ const Icons = styled.div`
 `
 
 export const ContentWrap = styled.div`
-  @media (min-width: 860px) {
+  @media (min-width: 690px) {
     display: flex;
     align-items: center;
   }
 `
 
 const Content = styled.div`
-  @media (max-width: 860px) {
+  @media (max-width: 690px) {
     padding: 3.2rem;
   }
-  @media (min-width: 860px) {
+  @media (min-width: 690px) {
     width: 70%;
-    padding-left: 3.2rem;
+    padding: 0 3.2rem;
   }
 
   .logo {
-    width: 100px;
+    width: 120px;
     height: auto;
-    margin-bottom: 1.6rem;
+
+    svg {
+      width: 100%;
+    }
   }
 `
 const ImageWrap = styled.div`
-  @media (min-width: 860px) {
+  height: 90vh;
+
+  @media (min-width: 690px) {
     width: 50%;
     height: 100vh;
   }
