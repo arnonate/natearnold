@@ -132,6 +132,8 @@ const Heading = styled.h1`
   font-family: "Archivo", sans-serif;
   font-weight: 700;
   color: #2c3f56;
+  line-height: 1;
+  margin: 0 0 1.6rem;
 `
 
 const Icons = styled.div`
@@ -175,10 +177,15 @@ const Content = styled.div`
   .logo {
     width: 120px;
     height: auto;
+    margin-bottom: 0.4rem;
 
     svg {
       width: 100%;
     }
+  }
+
+  p {
+    margin-bottom: 1.6rem;
   }
 `
 const ImageWrap = styled.div`
