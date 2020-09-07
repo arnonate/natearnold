@@ -134,6 +134,10 @@ const Icons = styled.div`
   * {
     height: 2rem;
     fill: #2c3f56;
+
+    &:hover {
+      fill: #31a1c5;
+    }
   }
 `
 
