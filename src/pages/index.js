@@ -115,7 +115,7 @@ const IndexPage = () => (
         </Icons>
 
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} Nate Arnold Consulting, LLC. Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
