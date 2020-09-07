@@ -134,11 +134,12 @@ const Heading = styled.h1`
 
 const Icons = styled.div`
   display: flex;
-  padding-bottom: 1.6rem;
+  flex-wrap: wrap;
 
   a {
     border-bottom: 0;
     padding-right: 1rem;
+    margin-bottom: 1.6rem;
 
     &:hover {
       * {
