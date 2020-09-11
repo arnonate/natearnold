@@ -39,7 +39,7 @@ const IndexPage = () => (
           <a href="https://docs.google.com/document/d/1fd0kl2XvL6lA9aaBmI6YQnWGxtSVTi9UNFdzq2hPeFI/edit?usp=sharing">
             View my resume
           </a>{" "}
-          on Google Drive
+          on Google Drive.
         </p>
 
         <Icons>
