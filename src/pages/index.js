@@ -35,6 +35,11 @@ const IndexPage = () => (
           <br />
           Sometimes I write about code on{" "}
           <a href="https://dev.to/arnonate">Dev.to</a>.
+          <br />
+          <a href="https://docs.google.com/document/d/1fd0kl2XvL6lA9aaBmI6YQnWGxtSVTi9UNFdzq2hPeFI/edit?usp=sharing">
+            View my resume
+          </a>{" "}
+          on Google Drive
         </p>
 
         <Icons>
@@ -119,7 +124,7 @@ const IndexPage = () => (
         <footer>
           © {new Date().getFullYear()} Nate Arnold Consulting, LLC. Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby.</a>
         </footer>
       </Content>
     </ContentWrap>

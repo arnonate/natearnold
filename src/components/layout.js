@@ -26,7 +26,7 @@ const Main = styled.main`
   p {
     font-family: "Merriweather", serif;
     font-size: 1rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     font-weight: 400;
   }
 
