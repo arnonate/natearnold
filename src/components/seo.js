@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `../images/screenshot.png`,
+          content: `https://natearnold.me/screenshot.png`,
         },
         {
           property: `og:description`,
@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: `../images/screenshot.png`,
+          content: `https://natearnold.me/screenshot.png`,
         },
       ].concat(meta)}
     />
