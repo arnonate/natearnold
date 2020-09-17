@@ -10,17 +10,15 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Software Engineer | Endurance Cyclist | St. Joseph, MO" />
 
-    <ContentWrap>
-      <ImageWrap>
-        <Image />
-      </ImageWrap>
+    <Article>
+      <div className="body">
+        <header>
+          <div className="logo">
+            <Logo />
+          </div>
 
-      <Content>
-        <div className="logo">
-          <Logo />
-        </div>
-
-        <Heading>Hello! I'm Nate.</Heading>
+          <h1>I'm Nate!</h1>
+        </header>
 
         <p>
           Software Engineer at{" "}
@@ -42,7 +40,7 @@ const IndexPage = () => (
           on Google Drive.
         </p>
 
-        <Icons>
+        <div className="icons">
           <a href="https://www.linkedin.com/in/arnonate/" aria-label="LinkedIn">
             <svg
               role="img"
@@ -119,70 +117,61 @@ const IndexPage = () => (
               <path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"></path>
             </svg>
           </a>
-        </Icons>
+        </div>
+      </div>
 
-        <footer>
-          © {new Date().getFullYear()} Nate Arnold Consulting, LLC. Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby.</a>
-        </footer>
-      </Content>
-    </ContentWrap>
+      <div className="covatar">
+        <Image />
+      </div>
+
+      {/* <footer>
+        © {new Date().getFullYear()} Nate Arnold Consulting, LLC. Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby.</a>
+      </footer> */}
+    </Article>
   </Layout>
 )
 
 export default IndexPage
 
-const Heading = styled.h1`
-  font-family: "Archivo", sans-serif;
-  font-weight: 700;
-  color: #2c3f56;
-  line-height: 1;
-  margin: 0 0 1.6rem;
-`
+const Article = styled.article`
+  @media (min-width: 980px) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
 
-const Icons = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-
-  a {
-    border-bottom: 0;
-    padding-right: 1rem;
-    margin-bottom: 1.6rem;
-
-    &:hover {
-      * {
-        fill: #31a1c5;
-      }
+  & > * {
+    @media (min-width: 980px) {
+      width: 50%;
     }
   }
 
-  * {
-    height: 2rem;
-    fill: #2c3f56;
+  .body {
+    padding: 1.8rem;
   }
-`
 
-export const ContentWrap = styled.div`
-  @media (min-width: 690px) {
-    display: flex;
-    align-items: center;
+  .covatar {
+    align-self: flex-end;
   }
-`
 
-const Content = styled.div`
-  @media (max-width: 690px) {
-    padding: 3.2rem;
-  }
-  @media (min-width: 690px) {
-    width: 70%;
-    padding: 0 3.2rem;
+  h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 3.2rem;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    color: #2c3f56;
+    line-height: 1;
+    padding: 0.8rem 0 1.8rem;
+    margin: 0;
   }
 
   .logo {
     width: 120px;
     height: auto;
-    margin-bottom: 0.4rem;
 
     svg {
       width: 100%;
@@ -190,18 +179,29 @@ const Content = styled.div`
   }
 
   p {
-    margin-bottom: 1.6rem;
-  }
-`
-const ImageWrap = styled.div`
-  height: 90vh;
-
-  @media (min-width: 690px) {
-    width: 50%;
-    height: 100vh;
+    margin-bottom: 2.6rem;
   }
 
-  .gatsby-image-wrapper {
-    height: 100%;
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+    a {
+      border-bottom: 0;
+      padding-right: 1rem;
+      margin-bottom: 1.6rem;
+
+      &:hover {
+        * {
+          fill: #31a1c5;
+        }
+      }
+    }
+
+    * {
+      height: 2rem;
+      fill: #2c3f56;
+    }
   }
 `
