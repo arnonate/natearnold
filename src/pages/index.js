@@ -215,8 +215,12 @@ const Article = styled.article`
     }
 
     * {
-      height: 2rem;
       fill: #2c3f56;
+      height: 1.5rem;
+
+      @media (min-width: 980px) {
+        height: 2rem;
+      }
     }
   }
 `
