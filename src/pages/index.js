@@ -36,7 +36,7 @@ const IndexPage = () => {
                 Partner at <a href="https://midcoast.io">Midcoast Collective</a>
                 .
                 <br />
-                Endurance Cyclist and Coach at{" "}
+                Endurance Cyclist and Creator at{" "}
                 <a href="https://sovereigncyclist.com">Sovereign Cyclist</a>.
                 <br />
                 Lifelong Learner and Educator.
