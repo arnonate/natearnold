@@ -31,7 +31,7 @@ const IndexPage = () => {
 
               <p>
                 Senior Software Engineer at{" "}
-                <a href="https://www.getready.com/">Ready Responders</a>.
+                <a href="https://www.getready.com/">Ready</a>.
                 <br />
                 Partner at <a href="https://midcoast.io">Midcoast Collective</a>
                 .
