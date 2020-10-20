@@ -30,8 +30,8 @@ const IndexPage = () => {
               </header>
 
               <p>
-                Software Engineer at{" "}
-                <a href="https://equipmentshare.com">EquipmentShare</a>.
+                Senior Software Engineer at{" "}
+                <a href="https://www.getready.com/">Ready Responders</a>.
                 <br />
                 Partner at <a href="https://midcoast.io">Midcoast Collective</a>
                 .
@@ -136,12 +136,6 @@ const IndexPage = () => {
             <div className="covatar">
               <Image />
             </div>
-
-            {/* <footer>
-      © {new Date().getFullYear()} Nate Arnold Consulting, LLC. Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby.</a>
-    </footer> */}
           </Article>
         </Layout>
       ) : null}
